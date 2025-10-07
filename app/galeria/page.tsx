@@ -123,7 +123,7 @@ export default function GaleriaPage() {
 					<div className="max-w-7xl mx-auto flex items-center justify-between">
 						<Link href="/" className="flex items-center gap-3 group">
 							<div className="w-12 h-12 bg-gradient-to-br from-primary to-secondary rounded-2xl flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300">
-								<span className="text-2xl">🤖</span>
+								 <img src="/logo.jpg" alt="Logo TEAmiBot" className="w-10 h-10 object-cover rounded-xl" />
 							</div>
 							<div className="flex flex-col">
 								<span className="text-xl font-bold text-foreground">

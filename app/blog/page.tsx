@@ -39,7 +39,7 @@ const articulos = [
 export default function BlogPage() {
   return (
     <div className="min-h-screen bg-background">
-      <header className="sticky top-4 z-50 mx-4 md:mx-8 mb-8">
+      <header className="mx-4 md:mx-8 mb-8">
         <nav className="bg-white/80 backdrop-blur-md rounded-[2rem] shadow-lg border-2 border-primary/10 px-6 py-4">
           <div className="max-w-7xl mx-auto flex items-center justify-between">
             <Link href="/" className="flex items-center gap-3 group">

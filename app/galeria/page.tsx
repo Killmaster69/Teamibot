@@ -44,12 +44,11 @@ const fotos = [
 ]
 
 const imagenesSueltas = [
-	"/child-autism-sensory-therapy-colorful-lights.jpg",
-	"/child-autism-music-therapy-instruments.jpg",
-	"/child-autism-tactile-exploration-textures-therapy.jpg",
-	"/child-autism-motor-skills-therapy-movement.jpg",
-	"/children-autism-social-interaction-therapy-group.jpg",
-	"/child-autism-tactile-exploration-textures-therapy.jpg",
+	"/galeria1.jpg",
+	"/galeria2.jpg",
+	"/galeria3.jpg",
+	"/galeria4.jpg",
+	"/galeria5.jpg",
 ]
 
 function ImageCarousel({ images }: { images: string[] }) {
@@ -65,11 +64,11 @@ function ImageCarousel({ images }: { images: string[] }) {
 
 	return (
 		<div className="relative bg-gradient-to-br from-primary/5 via-secondary/5 to-accent/5 rounded-[3rem] overflow-hidden shadow-xl border-2 border-primary/10 p-8">
-			<div className="relative aspect-video overflow-hidden rounded-[2rem] bg-muted/30 flex items-center justify-center">
+      <div className="relative w-full h-[60vh] md:h-[70vh] overflow-hidden rounded-[2rem] bg-muted/30 flex items-center justify-center">
 				<img
 					src={images[currentIndex] || "/placeholder.svg"}
 					alt={`Imagen ${currentIndex + 1}`}
-					className="w-full h-full object-cover"
+					className="max-w-full max-h-full object-contain transition-all duration-500"
 				/>
 			</div>
 
@@ -119,7 +118,7 @@ function ImageCarousel({ images }: { images: string[] }) {
 export default function GaleriaPage() {
 	return (
 		<div className="min-h-screen bg-background">
-			<header className="sticky top-4 z-50 mx-4 md:mx-8 mb-8">
+			<header className="mx-4 md:mx-8 mb-8">
 				<nav className="bg-white/80 backdrop-blur-md rounded-[2rem] shadow-lg border-2 border-primary/10 px-6 py-4">
 					<div className="max-w-7xl mx-auto flex items-center justify-between">
 						<Link href="/" className="flex items-center gap-3 group">

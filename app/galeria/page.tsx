@@ -136,7 +136,7 @@ export default function GaleriaPage() {
 							</div>
 						</Link>
 
-						<div className="flex items-center gap-2">
+						<div className="flex flex-col md:flex-row items-center gap-2">
 							<Link
 								href="/"
 								className="px-6 py-3 rounded-2xl text-foreground font-medium hover:bg-muted transition-all duration-300"

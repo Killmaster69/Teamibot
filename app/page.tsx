@@ -205,7 +205,7 @@ export default function HomePage() {
             </div>
 
             <div className="mt-12 pt-8 border-t-2 border-primary/10">
-              <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+              <div className="flex flex-col md:flex-row items-center gap-2">
                 <div className="flex flex-wrap gap-6 justify-center">
                   <div className="flex items-center gap-3 bg-muted/50 px-6 py-3 rounded-2xl">
                     <Phone className="w-5 h-5 text-primary" />

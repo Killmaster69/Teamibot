@@ -2,6 +2,14 @@
 
 # dependencies
 /node_modules
+<<<<<<< HEAD
+=======
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+>>>>>>> dc6aa5d024df327304b34c9fab7a2a75f3880bd1
 
 # next.js
 /.next/
@@ -10,18 +18,36 @@
 # production
 /build
 
+<<<<<<< HEAD
+=======
+# misc
+.DS_Store
+*.pem
+
+>>>>>>> dc6aa5d024df327304b34c9fab7a2a75f3880bd1
 # debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+<<<<<<< HEAD
 .pnpm-debug.log*
 
 # env files
 .env*
+=======
+
+# local env files
+.env*.local
+.env
+>>>>>>> dc6aa5d024df327304b34c9fab7a2a75f3880bd1
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
+<<<<<<< HEAD
 next-env.d.ts
+=======
+next-env.d.ts
+>>>>>>> dc6aa5d024df327304b34c9fab7a2a75f3880bd1
